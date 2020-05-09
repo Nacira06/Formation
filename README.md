@@ -1,11 +1,19 @@
-# Formation
-Formation git
+# git formation #
 
-# Configuration git
+# git configuration
 git config --global user.email "kikinfo06@yahoo.fr"
 git config --global user.name "Arezki75"
 
-# Commandes git
+# Create a new repository
+git init
+git remote add origin https://github.com/Arezki75/Formation.git
+git push -u origin master
+
+# Push an existing repository
+git remote add origin https://github.com/Arezki75/Formation.git
+git push -u origin master
+
+# git commands
 git clone https://github.com/Arezki75/Formation.git
 git add test.txt
 git commit -m "Ajout test.txt"
