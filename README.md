@@ -4,12 +4,10 @@
 git config --global user.email "kikinfo06@yahoo.fr"
 git config --global user.name "Arezki75"
 
-# Create a new repository
+# git initialisation
 git init
-git remote add origin https://github.com/Arezki75/Formation.git
-git push -u origin master
 
-# Push an existing repository
+# Add a repository
 git remote add origin https://github.com/Arezki75/Formation.git
 git push -u origin master
 
