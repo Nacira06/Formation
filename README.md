@@ -17,3 +17,5 @@ git add test.txt
 git commit -m "Ajout test.txt"
 git push origin master
 git pull origin master
+git branch develop
+git checkout develop
